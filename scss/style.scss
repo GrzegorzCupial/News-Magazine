@@ -44,6 +44,9 @@ body {
 
 .site-title {
   padding: 0 10px 0 10px;
+  a{
+    color: $route;
+  }
 }
 
 .fa {
@@ -436,7 +439,123 @@ figure {
   }
 }
 
+.sidebar-grid {
+  padding-left: 10px;
+  .small-post {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    .small-post-content {
+      h3 {
+        margin-top: 0;
+      }
+    }
+    .sidebar-small-img {
+      width: 85px;
+      float: left;
+      img {
+        width: 100%;
+          }
+      } 
+  }
+}
 
+.small-post-content {
+  padding-left: 100px;
+}
+.news-post-small-tools {
+  @extend .small-post-content;
+  @extend .news-post-tools;
+  h3 {
+    font-size: 16px;
+
+  }
+}
+
+.recent-widget {
+  margin-top: -20px;
+}
+
+
+.big {
+  height: 350px;
+  width: 100%;
+  .img-thumb {
+    position: absolute;
+    left: -25%;
+    top: -50%;
+    } 
+}
+
+.news-post-big-content {
+  padding: 20px 20px 0 20px;
+}
+
+.top-widget {
+  margin-top: -20px;
+  float: left;
+  .top-author {
+    width: 100%;
+    margin-left: 10px;
+    overflow: hidden;
+    li {
+      height: 70px;
+      width: 70px;
+      float: left;
+      margin: 0 10px 10px 0;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// .pagination {
+//   text-align: center;
+//   li {
+//     box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.24);
+//     border: 0 solid $grey;
+//     border-radius: 100%;
+    
+//     a{
+//       font-size: 12px;
+//       width: 40px;
+//       height: 40px;
+//     }
+//   }
+//   .active {
+//     background-color: $gamebook !important;
+//   }
+// }
+
+.pagination {
+  text-align: center;
+}
+
+.pagination-list {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    .active {
+          background-color: $gamebook;
+          color: #fff;
+        }
+    li {
+      display: inline;
+      a{
+        color: $route;
+        float: left;
+        padding: 8px 16px;
+        margin: 0 0 0 10px;
+        text-decoration: none;
+        box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.26);
+        border-radius: 100%;
+        &:hover:not(.active) {
+          background-color: #ddd;
+        }
+      }
+    }
+}
 
 
 

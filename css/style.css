@@ -5228,6 +5228,8 @@ body {
 
 .site-title {
   padding: 0 10px 0 10px; }
+  .site-title a {
+    color: #424242; }
 
 .fa {
   height: 100%;
@@ -5426,12 +5428,12 @@ figure {
 .news-category h3 {
   margin: 0 0 10px 0; }
 
-.news-post-tools ul li {
+.news-post-tools ul li, .news-post-small-tools ul li {
   color: #777;
   font-size: 14px;
   display: inline-block;
   margin: 0 20px 10px 0; }
-  .news-post-tools ul li i {
+  .news-post-tools ul li i, .news-post-small-tools ul li i {
     display: inline;
     margin-right: 5px; }
 
@@ -5535,6 +5537,78 @@ figure {
       line-height: 35px;
       font-size: 20px;
       color: #fff; }
+
+.sidebar-grid {
+  padding-left: 10px; }
+  .sidebar-grid .small-post {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+    .sidebar-grid .small-post .small-post-content h3, .sidebar-grid .small-post .news-post-small-tools h3 {
+      margin-top: 0; }
+    .sidebar-grid .small-post .sidebar-small-img {
+      width: 85px;
+      float: left; }
+      .sidebar-grid .small-post .sidebar-small-img img {
+        width: 100%; }
+
+.small-post-content, .news-post-small-tools {
+  padding-left: 100px; }
+
+.news-post-small-tools h3 {
+  font-size: 16px; }
+
+.recent-widget {
+  margin-top: -20px; }
+
+.big {
+  height: 350px;
+  width: 100%; }
+  .big .img-thumb {
+    position: absolute;
+    left: -25%;
+    top: -50%; }
+
+.news-post-big-content {
+  padding: 20px 20px 0 20px; }
+
+.top-widget {
+  margin-top: -20px;
+  float: left; }
+  .top-widget .top-author {
+    width: 100%;
+    margin-left: 10px;
+    overflow: hidden; }
+    .top-widget .top-author li {
+      height: 70px;
+      width: 70px;
+      float: left;
+      margin: 0 10px 10px 0; }
+      .top-widget .top-author li img {
+        width: 100%; }
+
+.pagination {
+  text-align: center; }
+
+.pagination-list {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+  .pagination-list .active {
+    background-color: #3299BB;
+    color: #fff; }
+  .pagination-list li {
+    display: inline; }
+    .pagination-list li a {
+      color: #424242;
+      float: left;
+      padding: 8px 16px;
+      margin: 0 0 0 10px;
+      text-decoration: none;
+      box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.26);
+      border-radius: 100%; }
+      .pagination-list li a:hover:not(.active) {
+        background-color: #ddd; }
 
 .dropbtn {
   color: #777;
