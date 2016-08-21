@@ -190,11 +190,11 @@ $switch-radius: 15px !default;
    ========================================================================== */
 
 // Media Query Ranges
-$small-screen-up: 601px !default;
-$medium-screen-up: 993px !default;
+$small-screen-up: 920px !default;
+$medium-screen-up: 1037px !default;
 $large-screen-up: 1201px !default;
-$small-screen: 600px !default;
-$medium-screen: 992px !default;
+$small-screen: 920px !default;
+$medium-screen: 1038px !default;
 $large-screen: 1200px !default;
 
 $medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
