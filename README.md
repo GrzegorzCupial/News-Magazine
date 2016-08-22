@@ -9,6 +9,3 @@
 
 ## TODO:
 - purify css
-- single-page
-- contact-page
-- rwd fixes
