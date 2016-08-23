@@ -1,11 +1,7 @@
 # News-Magazine
 ## Included: 
-- MaterializeCss grids
+- MaterializeCss grids only
 - sass files organization
 - gulp-watch & live-reloading
 - fontawesome
 - jquery
-
-
-## TODO:
-- purify css
