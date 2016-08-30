@@ -11,7 +11,7 @@
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;ov
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
 .fa-envelope-o:before {
@@ -52,8 +52,6 @@
 
 .fa-pinterest-p:before {
   content: ""; }
-.fa-times-circle-o:before {
-  content: ""; }
 
 html {
   font-family: sans-serif;
@@ -894,7 +892,8 @@ figure {
   -moz-transition: all .2s linear 0s;
   -webkit-transition: all .2s linear 0s;
   -o-transition: all .2s linear 0s; }
-  
+
+
 /*overlay*/
 .overlay {
   display: none;
