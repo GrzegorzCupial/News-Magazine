@@ -11,7 +11,7 @@
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;ov
   -moz-osx-font-smoothing: grayscale; }
 
 .fa-envelope-o:before {
@@ -52,6 +52,8 @@
 
 .fa-pinterest-p:before {
   content: ""; }
+.fa-times-circle-o:before {
+  content: ""; }
 
 html {
   font-family: sans-serif;
@@ -880,10 +882,19 @@ figure {
   -webkit-transition: all .2s linear 0s;
   -o-transition: all .2s linear 0s; }
 
-.btn-open:hover:after {
+.btn-open:hover:after, .btn-close:hover:after {
   color: #3299BB;
   cursor: pointer; }
 
+.btn-close:after {
+  color: #fff;
+  content: "\f00d";
+  font-family: "FontAwesome";
+  transition: all .2s linear 0s;
+  -moz-transition: all .2s linear 0s;
+  -webkit-transition: all .2s linear 0s;
+  -o-transition: all .2s linear 0s; }
+  
 /*overlay*/
 .overlay {
   display: none;
